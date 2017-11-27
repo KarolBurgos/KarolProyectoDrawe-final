@@ -23,10 +23,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0.31"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Institución Educativa Tecnologica Agroambiental Bilingue Awá"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:layout_weight="0.31" />
+        android:text="@string/tfi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
         android:id="@+id/textView"

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //fragment acerca de
+    <string name="tvs">Systems engineer</string>
+    <string name="tvs1">student</string>
+    <string name="tvk">Systems engineer</string>
+    <string name="tvk1">student</string>
+
+    //Fragment Informacion mision y vision.
+    <string name="tvm">mission</string>
+    <string name="tvv">view</string>
+    <string name="tvml">Accompany the Awá community in the process of consolidating their own educational system based
+        on their language, autonomy, principles, care for the environment and customs in such a way as to allow
+        them to strengthen their culture. Locate its members in the productive sector, community leadership and consequently
+        achieve its collective and historical singular realization. The Educational Institution Agroambiental Bilingual Awá,
+        is built as an enabling environment for human and community development and conceives its reason for being in
+        processes that affirm autonomy, freedom, democracy, and defense of its territory as heritage and legacy of their ancestors</string>
+    <string name="tvvl">The Awá Bilingual Technical Agricultural Educational Institution, will tend to be the center and
+        corporate image of the Awá community, recognized at the local, regional and national level as an
+        educational - cultural space of integral formation of its members; motivating them to continue higher studies,
+        which contribute to the improvement and quality of life of the indigenous people of the community. It counts
+        for it with committed personnel that guarantees the achievement of this purpose.</string>
+
+    //Fragment segundo informacion profesores
+    <string name="t1">Teacher</string>
+    <string name="t2">Specialty</string>
+    <string name="t3">Cell phone</string>
+    <string name="t4">Graduate in natural sciences</string>
+    <string name="t5">Teacher</string>
+    <string name="t6">Specialty</string>
+    <string name="t7">cell phone</string>
+    <string name="t8">Systems Engineer</string>
+    <string name="t9">Teacher</string>
+    <string name="t10">Specialty</string>
+    <string name="t11">Cell phone</string>
+    <string name="t12">Teacher Awapit</string>
+
+    //Fragmente ubicacion los botones de inicio
+    <string name="twifi">Wifi</string>
+    <string name="tpro">Teachers</string>
+    <string name="tacerca">About...</string>
+    <string name="tinfo">information</string>
+
+
+    //nav_header_main
+    <string name="tfi">Educational Institution Agro-environmental Bilingual Awá</string>
+
+    //iconos
+    <string name="ini">Start</string>
+    <string name="prof">Teachers</string>
+    <string name="infor">Information</string>
+    <string name="ubi">Location</string>
+    <string name="zonwifi">Wifi Zones</string>
+    <string name="grad">Programming degrees</string>
+    <string name="sali">Exit</string>
+
+    //programacion
+    <string name="pro">PROGRAM</string>
+    <string name="Pre">1. Presentation of graduates 2017</string>
+    <string name="him">2. National anthem</string>
+    <string name="pa">3. Words of the Rector Jose Miguel Bisbicus</string>
+    <string name="procl">4. Proclamation of bachelors and diplomas</string>
+    <string name="ent">5. Delivery of special recognitions</string>
+    <string name="pal">6. Farewell words by an eleventh grade student</string>
+    <string name="ba">BACHILLERES 2017</string>
+    <string name="ho">Hora: 2Pm</string>
+
+</resources>

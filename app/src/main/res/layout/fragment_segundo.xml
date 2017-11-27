@@ -88,7 +88,7 @@
                                     android:layout_width="75dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="0.34"
-                                    android:text="Docente:" />
+                                    android:text="@string/t9" />
 
                                 <TextView
                                     android:id="@+id/textView16sw"
@@ -112,14 +112,14 @@
                                     android:id="@+id/es1jk"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Especialidad:"
-                                    android:layout_weight="0.58" />
+                                    android:layout_weight="0.58"
+                                    android:text="@string/t10" />
 
                                 <TextView
                                     android:id="@+id/textView1kj7"
                                     android:layout_width="104dp"
                                     android:layout_height="64dp"
-                                    android:text="Licenciada en Ciencias Naturales" />
+                                    android:text="@string/t4" />
 
                             </LinearLayout>
 
@@ -135,7 +135,7 @@
                                     android:layout_width="88dp"
                                     android:layout_height="38dp"
                                     android:layout_weight="0.08"
-                                    android:text="Celular:" />
+                                    android:text="@string/t3" />
 
                                 <TextView
                                     android:id="@+id/textView18as"
@@ -196,7 +196,7 @@
                                     android:layout_width="75dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="0.34"
-                                    android:text="Docente:" />
+                                    android:text="@string/t9" />
 
                                 <TextView
                                     android:id="@+id/textView16df"
@@ -220,14 +220,14 @@
                                     android:id="@+id/es1sd"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Especialidad:"
-                                    android:layout_weight="0.58" />
+                                    android:layout_weight="0.58"
+                                    android:text="@string/t10" />
 
                                 <TextView
                                     android:id="@+id/textView17sd"
                                     android:layout_width="104dp"
                                     android:layout_height="wrap_content"
-                                    android:text="Ingeniero de Sistemas" />
+                                    android:text="@string/tvs" />
 
                             </LinearLayout>
 
@@ -243,7 +243,7 @@
                                     android:layout_width="88dp"
                                     android:layout_height="38dp"
                                     android:layout_weight="0.08"
-                                    android:text="Celular:" />
+                                    android:text="@string/t3" />
 
                                 <TextView
                                     android:id="@+id/textView18sd"
@@ -303,7 +303,7 @@
                                     android:layout_width="75dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="0.34"
-                                    android:text="Docente:" />
+                                    android:text="@string/t9" />
 
                                 <TextView
                                     android:id="@+id/textView16"
@@ -327,14 +327,14 @@
                                     android:id="@+id/es1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Especialidad:"
-                                    android:layout_weight="0.58" />
+                                    android:layout_weight="0.58"
+                                    android:text="@string/t10" />
 
                                 <TextView
                                     android:id="@+id/textView17"
                                     android:layout_width="104dp"
                                     android:layout_height="wrap_content"
-                                    android:text="Docente Awapit" />
+                                    android:text="@string/t12" />
 
                             </LinearLayout>
 
@@ -350,7 +350,7 @@
                                     android:layout_width="88dp"
                                     android:layout_height="38dp"
                                     android:layout_weight="0.08"
-                                    android:text="Celular:" />
+                                    android:text="@string/t3" />
 
                                 <TextView
                                     android:id="@+id/textView18"

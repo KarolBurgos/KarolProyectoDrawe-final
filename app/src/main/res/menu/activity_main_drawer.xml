@@ -5,15 +5,15 @@
         <item
             android:id="@+id/ini"
             android:icon="@drawable/ic_home"
-            android:title="Inicio" />
+            android:title="@string/ini" />
         <item
             android:id="@+id/profe"
             android:icon="@drawable/ic_profes"
-            android:title="Profesores" />
+            android:title="@string/tpro" />
         <item
             android:id="@+id/infor"
             android:icon="?android:attr/actionModeFindDrawable"
-            android:title="Información" />
+            android:title="@string/infor" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_home"
@@ -21,12 +21,12 @@
         <item
             android:id="@+id/navUBicacion"
             android:icon="@android:drawable/ic_dialog_map"
-            android:title="Ubicación" />
+            android:title="@string/ubi" />
 
         <item
             android:id="@+id/wifi"
             android:icon="@android:drawable/ic_dialog_map"
-            android:title="ZonasWifi" />
+            android:title="@string/zonwifi" />
     </group>
 
     <item android:title="Communicate">
@@ -34,11 +34,11 @@
             <item
                 android:id="@+id/nav_share"
                 android:icon="@android:drawable/ic_menu_agenda"
-                android:title="Programación grados" />
+                android:title="@string/grad" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Salir" />
+                android:title="@string/sali" />
         </menu>
     </item>
 

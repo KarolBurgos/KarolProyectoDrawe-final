@@ -18,8 +18,9 @@
 
             <ImageView
                 android:id="@+id/imageView7"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="157dp"
+                android:layout_weight="1"
                 app:srcCompat="@drawable/fondo" />
         </LinearLayout>
 
@@ -39,11 +40,11 @@
 
                     <android.support.v7.widget.CardView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="97dp" >
 
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
+                            android:layout_height="86dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -72,7 +73,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-condensed"
-                                    android:text="Ingeniera de Sistemas"
+                                    android:text="@string/t8"
                                     android:textColor="@android:color/darker_gray" />
 
                                 <TextView
@@ -80,7 +81,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-condensed"
-                                    android:text="Estudiante"
+                                    android:text="@string/tvk1"
                                     android:textColor="@android:color/darker_gray" />
 
                                 <TextView
@@ -97,11 +98,11 @@
 
                     <android.support.v7.widget.CardView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="84dp" >
 
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
+                            android:layout_height="107dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -130,7 +131,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-condensed"
-                                    android:text="Ingeniera de Sistemas"
+                                    android:text="@string/t8"
                                     android:textColor="@android:color/darker_gray" />
 
                                 <TextView
@@ -138,7 +139,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-condensed"
-                                    android:text="Estudiante"
+                                    android:text="@string/tvk1"
                                     android:textColor="@android:color/darker_gray" />
 
                                 <TextView
@@ -160,6 +161,7 @@
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:text="ok" />
+
                 </LinearLayout>
             </ScrollView>
         </LinearLayout>

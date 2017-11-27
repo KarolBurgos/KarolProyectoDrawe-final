@@ -6,4 +6,16 @@
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/acercade"
+        android:orderInCategory="100"
+        android:title="@string/tacerca"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/informacion"
+        android:orderInCategory="100"
+        android:title="@string/tinfo"
+        app:showAsAction="never" />
 </menu>

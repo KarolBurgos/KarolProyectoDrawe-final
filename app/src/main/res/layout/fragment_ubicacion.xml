@@ -42,12 +42,6 @@
                     android:orientation="horizontal"
                     android:weightSum="1">
 
-                    <ImageView
-                        android:id="@+id/imageView9"
-                        android:layout_width="70dp"
-                        android:layout_height="42dp"
-                        app:srcCompat="@drawable/k" />
-
                     <LinearLayout
                         android:layout_width="53dp"
                         android:layout_height="41dp"
@@ -67,7 +61,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="Wifi"
+                            android:text="@string/twifi"
                             android:textSize="10sp" />
 
                     </LinearLayout>
@@ -90,7 +84,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="Profesores"
+                            android:text="@string/tpro"
                             android:textSize="10sp" />
 
                     </LinearLayout>
@@ -114,7 +108,7 @@
                             android:layout_width="108dp"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:text="Acerca de"
+                            android:text="@string/tacerca"
                             android:textSize="10sp" />
 
                     </LinearLayout>
@@ -136,11 +130,32 @@
                             android:layout_width="108dp"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:text="Informacion"
+                            android:text="@string/tinfo"
                             android:textSize="10sp" />
 
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="66dp"
+                        android:layout_height="40dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/grados"
+                            android:layout_width="34dp"
+                            android:layout_height="26dp"
+                            android:background="@android:drawable/ic_menu_agenda" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="108dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Grados 2017"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
 

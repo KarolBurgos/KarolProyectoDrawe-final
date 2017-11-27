@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,7 +39,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class UbicacionFragment extends Fragment implements OnMapReadyCallback {
     Button btncero,btnuno,btndos,btntres,btncuatro,btncinco,btnseis,btnsiete,btn0cho,btnnueve,btnpunto,
-            btnigual,btnsuma,btnresta,btnmulti,btndiv,btnlimpiar,acercade;
+            btnigual,btnsuma,btnresta,btnmulti,btndiv,grados,acercade;
 
     EditText elproceso,elconcatenar;
     private FragmentActivity myContext;
@@ -55,13 +56,14 @@ public class UbicacionFragment extends Fragment implements OnMapReadyCallback {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+                             final Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         final View view = inflater.inflate(R.layout.fragment_ubicacion, container, false);
         btncero= (Button) view.findViewById(R.id.profesores);
         btntres= (Button) view.findViewById(R.id.ubicacion);
         btncuatro= (Button) view.findViewById(R.id.wifi);
         acercade= (Button) view.findViewById(R.id.acercade);
+        grados= (Button) view.findViewById(R.id.grados);
 
         btncero.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -87,7 +89,7 @@ public class UbicacionFragment extends Fragment implements OnMapReadyCallback {
                 // elconcatenar =(EditText)view.findViewById(R.id.proceso);
                 //elproceso.setText(elconcatenar.getText().toString()+"9");
                 Fragment fragment = null;
-                Class fragmentClass= UbicacionFragment.class;
+                Class fragmentClass= InformacionFragment.class;
                 try{
                     fragment = (Fragment) fragmentClass.newInstance();
                 }catch (Exception e){
@@ -122,8 +124,37 @@ public class UbicacionFragment extends Fragment implements OnMapReadyCallback {
             public void onClick(View v) {
                 // elconcatenar =(EditText)view.findViewById(R.id.proceso);
                 //elproceso.setText(elconcatenar.getText().toString()+"9");
+
+                AlertDialog.Builder uBuilder2 = new AlertDialog.Builder(UbicacionFragment.super.getContext());
+                View aView2 = getLayoutInflater(savedInstanceState).inflate(R.layout.fragment_acerca_dee, null);
+                uBuilder2.setView(aView2);
+                final AlertDialog dialog2 = uBuilder2.create();
+                dialog2.show();
+                Button close = (Button) aView2.findViewById(R.id.close);
+
+                close.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        dialog2.cancel();
+                    }
+                });
+
+
+            }
+
+
+
+
+        });
+
+        grados.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // elconcatenar =(EditText)view.findViewById(R.id.proceso);
+                //elproceso.setText(elconcatenar.getText().toString()+"9");
+
+                //elproceso.setText(elconcatenar.getText().toString()+"9");
                 Fragment fragment = null;
-                Class fragmentClass= AcercaDeeFragment.class;
+                Class fragmentClass= ProgramacionGradosFragment.class;
                 try{
                     fragment = (Fragment) fragmentClass.newInstance();
                 }catch (Exception e){
@@ -134,6 +165,10 @@ public class UbicacionFragment extends Fragment implements OnMapReadyCallback {
 
 
             }
+
+
+
+
         });
         return view;
     }

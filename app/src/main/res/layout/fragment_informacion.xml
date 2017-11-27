@@ -27,7 +27,7 @@
                 android:id="@+id/textView20"
                 android:layout_width="126dp"
                 android:layout_height="35dp"
-                android:text="MISION"
+                android:text="@string/tvm"
                 android:textColor="@color/colorPrimary"
                 android:textSize="24sp"
                 android:textStyle="italic" />
@@ -39,14 +39,14 @@
                 android:autoSizeMaxTextSize="@dimen/activity_horizontal_margin"
                 android:contextClickable="?attr/isLightTheme"
 
-                android:text="Acompañar a la comunidad Awá en el proceso de consolidación de un sistema educativo propio basado en su lengua, autonomía, principios, cuidado del ambiente y costumbres de tal manera que le permita el fortalecimiento de su cultura. Ubicar a sus miembros en el sector productivo, de liderazgo comunitario y en consecuencia alcanzar su realización singular  colectiva e histórica. La Institución Educativa Tecnica Agroambiental Bilingüe Awá, se construye como ámbito propicio para el desarrollo humano y comunitario y concibe su razón de ser en procesos que afirman la autonomía, la libertad, la democracia, y defensa de su territorio como patrimonio y legado de sus ancestros"
+                android:text="@string/tvml"
                 android:textColor="@color/cardview_dark_background" />
 
             <TextView
                 android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="VISION"
+                android:text="@string/tvv"
                 android:textColor="@color/colorPrimary"
                 android:textSize="30sp"
                 android:textStyle="italic" />
@@ -55,8 +55,16 @@
                 android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="La Institución Educativa Tecnica Agroambiental Bilingüe Awá, Propenderá por ser el centro e imagen corporativa de  la comunidad Awá, reconocida a nivel Local, regional y Nacional como un espacio educativo - cultural de formación integral de sus miembros; motivándolos a continuar estudios superiores, que contribuyan al mejoramiento y calidad de vida de los indígenas de la comunidad. Se cuenta para ello con personal comprometido que garantiza el logro de este propósito."
+                android:text="@string/tvvl"
                 android:textColor="@color/cardview_dark_background" />
         </LinearLayout>
+
     </ScrollView>
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="Ok" />
 </FrameLayout>
